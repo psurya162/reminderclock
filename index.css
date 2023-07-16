@@ -200,7 +200,7 @@ align-items: center;
         height: 75px;
         padding: 25px;
         margin-left: 15px;
-        width: 275px;
+        width: 336px;
         
     }
     .alarm_set_noti {
@@ -212,18 +212,19 @@ align-items: center;
     }
     .alarm_notification {
         
-        margin-left: 10px;
-        margin-right: -245px;
+        margin-left: 21px;
+        margin-right: -27px;
         
         display: inline;
     }
     .parent1{
         margin-left: 15px;
-        width: 277PX
+        width: 336PX
     }
     .largecontainer{
         margin-left: 15px;
-        width: 277px;
+        width: 336px;
+        
     }
     .vertical_line {
         margin: 0px 27px;
@@ -237,21 +238,33 @@ align-items: center;
         margin-left: -28px;
     }
     .mainclock{
-        width: 269px;
+        width: 321px;
         margin-right: 10px;
     }
     .box1{
-        width: 212px;
+        width: 276px;
+        left: 19px;
     }
     .box2{
-        width: 162px;
+        width: 228px;
+        left: 42px;
     }
     .pop_up{
-        width: 259px;
-    height: 158px;
-    margin-left: 19px;
+        width: 313px;
+        height: 158px;
+        margin-left: 17px;
     }
-    .parent2{
-        /* margin-left: 20px; */
+    
+    .alarm_notification h3{
+        display: inline-block;
+    }
+    .component_image{
+        width: 288px;
+        height: auto;
+        margin-left: -31px;
+    }
+    .clockparent{
+        margin-left: 17px;
+        margin-top: 15px;
     }
 }
