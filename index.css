@@ -212,9 +212,8 @@ align-items: center;
     }
     .alarm_notification {
         
-        margin-left: 10px;
-        /* display: inline; */
-        margin-right: 25px;
+        margin-left: 17px;
+        margin-top: 15px;
     }
     .parent1{
         margin-left: 15px;
