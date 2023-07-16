@@ -200,11 +200,14 @@ align-items: center;
         height: 75px;
         padding: 25px;
         margin-left: 15px;
+        width: 275px;
         
     }
     .alarm_set_noti {
         
-        justify-content: center;
+        /* justify-content: center; */
+        display: flex;
+        flex-direction: column
         
     }
     .alarm_notification {
@@ -216,8 +219,39 @@ align-items: center;
     }
     .parent1{
         margin-left: 15px;
+        width: 277PX
     }
     .largecontainer{
         margin-left: 15px;
+        width: 277px;
+    }
+    .vertical_line {
+        margin: 0px 27px;
+        
+    }
+    .logo {
+        width: 215px;
+        height: auto;
+        padding: 10px 0px 0px 41px;
+        margin-top: 67px;
+        margin-left: -28px;
+    }
+    .mainclock{
+        width: 269px;
+        margin-right: 10px;
+    }
+    .box1{
+        width: 212px;
+    }
+    .box2{
+        width: 162px;
+    }
+    .pop_up{
+        width: 259px;
+    height: 158px;
+    margin-left: 19px;
+    }
+    .parent2{
+        /* margin-left: 20px; */
     }
 }
