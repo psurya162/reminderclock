@@ -71,8 +71,10 @@ body{
     color: white;
     
 }
-.setalarm{
+button{
     background-color: #9140B5;
+    font-size: 20px;
+    font-weight: 600;
     width: 300px;
     margin-left: 40PX;
     margin-top: 10PX;
@@ -82,8 +84,9 @@ body{
     background-image: linear-gradient(to left, #FC5EFF,#CB52F8,#6E54EC);
     padding: 10PX;
 }
-.setalarm:hover{
+button:hover{
     background-image: linear-gradient(to right, #FC5EFF,#CB52F8,#6E54EC);
+    cursor: pointer;
 }
 .alarm_set_noti{
     display: flex;
@@ -196,7 +199,7 @@ align-items: center;
         justify-content: space-around;
         height: auto;
     }
-    .setalarm{
+    button{
         height: 75px;
         padding: 25px;
         margin-left: 15px;
