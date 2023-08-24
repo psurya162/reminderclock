@@ -91,6 +91,7 @@ button:hover{
 .alarm_set_noti{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .alarm_notification{
     background-color: #9140B5;
@@ -140,7 +141,7 @@ display: flex;
 justify-content: space-evenly;
 align-items: center;
 }
-.AM_BOX{
+#AM_BOX{
     width: 65px;
     height: 59px;
     background-image: linear-gradient(#FC5EFF,#CB52F8,#6E54EC);
@@ -150,21 +151,25 @@ align-items: center;
     font-weight: bold;
 }
 .timer_box{
-    width: 65px;
-    height: 59px;
+    
     font-weight: 600;
     font-size: 20px;
     text-align: center;
     padding-top: 10px;
-    background-color: #F6E2FF;
-    color: #8A11BF;
+    
+    
+}
+.hourrr{
+    background-image: url(./timeline@2x.png);
+    width: 70px;
+    height: 70px;
 }
 .time{
     font-weight: 500;
     font-size: 20px;
 }
 .hour{
-    display: block;
+    text-align: center;
 }
 
 .colon{
@@ -172,14 +177,14 @@ align-items: center;
 }
 .pop_up{
     width: 600px;
-    height: 90px;
+    height: 94px;
     background-color: white;
     margin-top: 200px;
     margin-left: 25px;
     border-radius: 5px;
     padding: 30px 0px;
     font-size: 20px;
-    text-align: center;
+   text-align: center;
     color: #8A11BF;
 }
 .image_container{
@@ -191,6 +196,9 @@ align-items: center;
     display: flex;
     justify-content: space-around;
     height: 100vh;
+}
+#btn:hover{
+    content: "Party Time";
 }
 @media screen and (min-width:250px) and (max-width:500px) {
     .mainparent{
