@@ -201,18 +201,22 @@ align-items: center;
     content: "Party Time";
 }
 @media screen and (min-width:250px) and (max-width:500px) {
+
+    
     .mainparent{
         display:flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         height: auto;
+        overflow: hidden;
     }
     .right{
         display: flex;
         justify-content: center;
         /* align-items: center; */
         flex-direction: column;
+        
     }
     button{
         height: 75px;
@@ -268,9 +272,9 @@ align-items: center;
         left: 42px;
     }
     .pop_up{
-        width: 313px;
+        width: 302px;
         height: 158px;
-        margin-left: 32px;
+        margin-left: 51px;
         margin-top: 165px;
     }
     
@@ -280,7 +284,7 @@ align-items: center;
     .component_image{
         width: 288px;
         height: auto;
-        margin-left: -31px;
+        /* margin-left: -31px; */
         margin-top: -35px;
     }
     .clockparent{
