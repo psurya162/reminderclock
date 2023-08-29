@@ -218,6 +218,12 @@ align-items: center;
         flex-direction: column;
         
     }
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
     button{
         height: 75px;
         padding: 25px;
