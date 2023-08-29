@@ -205,7 +205,14 @@ align-items: center;
         display:flex;
         flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         height: auto;
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
     }
     button{
         height: 75px;
@@ -225,11 +232,13 @@ align-items: center;
         
         margin-left: 17px;
         margin-top: 15px;
+        margin-right: 4px
     }
     .parent1{
         margin-left: 15px;
         width: 336PX
     }
+   
     .largecontainer{
         margin-left: 15px;
         width: 336px;
@@ -261,13 +270,13 @@ align-items: center;
     .pop_up{
         width: 313px;
         height: 158px;
-        margin-left: 17px;
+        margin-left: 32px;
         margin-top: 165px;
     }
     
-    .alarm_notification h3{
+    /* .alarm_notification h3{
         display: inline-block;
-    }
+    } */
     .component_image{
         width: 288px;
         height: auto;
@@ -275,13 +284,9 @@ align-items: center;
         margin-top: -35px;
     }
     .clockparent{
-        margin-left: 17px;
+        margin-left:36px;
         margin-top: 15px;
     }
-    /* .mainparent{
-       justify-content: center;
-       align-items: center;
-        
-    } */
+   
     
 }
