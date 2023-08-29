@@ -221,7 +221,7 @@ align-items: center;
     button{
         height: 75px;
         padding: 25px;
-        margin-left: 15px;
+        margin-left: 8px;
         width: 336px;
         
     }
@@ -234,17 +234,17 @@ align-items: center;
     }
     .alarm_notification {
         
-        margin-left: 17px;
+        margin-left: 8px;
         margin-top: 15px;
-        margin-right: 4px
+        margin-right: 4px;
     }
     .parent1{
-        margin-left: 15px;
+        margin-left: 8px;
         width: 336PX
     }
    
     .largecontainer{
-        margin-left: 15px;
+        margin-left: 8px;
         width: 336px;
         
     }
